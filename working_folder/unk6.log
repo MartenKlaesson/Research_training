@@ -1,0 +1,25 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile unk5
+  --exclude ATCGlist
+  --make-bed
+  --out unk6
+
+Hostname: rackham1.uppmax.uu.se
+Working directory: /crex/proj/snic2019-8-208/Workshop/working_folder
+Start time: Fri Jun 14 13:52:47 2019
+
+Random number seed: 1560513167
+257386 MB RAM detected; reserving 128693 MB for main workspace.
+97780 variants loaded from .bim file.
+79 people (41 males, 38 females) loaded from .fam.
+--exclude: 94671 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 79 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.979071.
+94671 variants and 79 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to unk6.bed + unk6.bim + unk6.fam ... done.
+
+End time: Fri Jun 14 13:52:47 2019

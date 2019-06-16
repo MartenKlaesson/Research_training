@@ -1,0 +1,31 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile RefInd1_ext2
+  --bmerge unk6.bed unk6.bim unk6.fam
+  --make-bed
+  --out MergeRef1
+
+Hostname: rackham1.uppmax.uu.se
+Working directory: /crex/proj/snic2019-8-208/Workshop/working_folder
+Start time: Fri Jun 14 13:53:10 2019
+
+Random number seed: 1560513190
+257386 MB RAM detected; reserving 128693 MB for main workspace.
+1 person loaded from RefInd1_ext2.fam.
+79 people to be merged from unk6.fam.
+Of these, 79 are new, while 0 are present in the base dataset.
+94671 markers loaded from RefInd1_ext2.bim.
+94671 markers to be merged from unk6.bim.
+Of these, 0 are new, while 94671 are present in the base dataset.
+Error: 48769 variants with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  MergeRef1-merge.missnp.
+  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
+  alleles probably remain in your data.  If LD between nearby SNPs is high,
+  --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.
+
+End time: Fri Jun 14 13:53:10 2019

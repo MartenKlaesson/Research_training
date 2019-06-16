@@ -1,0 +1,25 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile Refind1
+  --extract unk5.bim
+  --make-bed
+  --out RefInd1_ext
+
+Hostname: rackham1.uppmax.uu.se
+Working directory: /crex/proj/snic2019-8-208/Workshop/working_folder
+Start time: Fri Jun 14 13:48:11 2019
+
+Random number seed: 1560512891
+257386 MB RAM detected; reserving 128693 MB for main workspace.
+127821 variants loaded from .bim file.
+1 person (0 males, 0 females, 1 ambiguous) loaded from .fam.
+Ambiguous sex ID written to RefInd1_ext.nosex .
+--extract: 97780 variants remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1 founder and 0 nonfounders present.
+Calculating allele frequencies... done.
+97780 variants and 1 person pass filters and QC.
+Note: No phenotypes present.
+--make-bed to RefInd1_ext.bed + RefInd1_ext.bim + RefInd1_ext.fam ... done.
+
+End time: Fri Jun 14 13:48:11 2019

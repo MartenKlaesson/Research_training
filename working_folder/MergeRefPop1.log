@@ -1,0 +1,31 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile MergeRef2
+  --bmerge refpops2.bed refpops2.bim refpops2.fam
+  --make-bed
+  --out MergeRefPop1
+
+Hostname: rackham1.uppmax.uu.se
+Working directory: /crex/proj/snic2019-8-208/Workshop/working_folder
+Start time: Fri Jun 14 14:15:33 2019
+
+Random number seed: 1560514533
+257386 MB RAM detected; reserving 128693 MB for main workspace.
+80 people loaded from MergeRef2.fam.
+60 people to be merged from refpops2.fam.
+Of these, 60 are new, while 0 are present in the base dataset.
+94671 markers loaded from MergeRef2.bim.
+14882 markers to be merged from refpops2.bim.
+Of these, 0 are new, while 14882 are present in the base dataset.
+Error: 7573 variants with 3+ alleles present.
+* If you believe this is due to strand inconsistency, try --flip with
+  MergeRefPop1-merge.missnp.
+  (Warning: if this seems to work, strand errors involving SNPs with A/T or C/G
+  alleles probably remain in your data.  If LD between nearby SNPs is high,
+  --flip-scan should detect them.)
+* If you are dealing with genuine multiallelic variants, we recommend exporting
+  that subset of the data to VCF (via e.g. '--recode vcf'), merging with
+  another tool/script, and then importing the result; PLINK is not yet suited
+  to handling them.
+
+End time: Fri Jun 14 14:15:33 2019

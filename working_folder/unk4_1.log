@@ -1,0 +1,30 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile unk4_1
+  --hwe 0.01
+  --make-bed
+  --out unk4_1
+
+Hostname: rackham1.uppmax.uu.se
+Working directory: /crex/proj/snic2019-8-208/Workshop/working_folder
+Start time: Fri Jun 14 14:41:25 2019
+
+Random number seed: 1560516085
+257386 MB RAM detected; reserving 128693 MB for main workspace.
+Warning: --make-bed input and output filenames match.  Appending '~' to input
+filenames.
+98345 variants loaded from .bim file.
+20 people (3 males, 17 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 20 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.98113.
+Warning: --hwe observation counts vary by more than 10%.  Consider using
+--geno, and/or applying different p-value thresholds to distinct subsets of
+your data.
+--hwe: 319 variants removed due to Hardy-Weinberg exact test.
+98026 variants and 20 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to unk4_1.bed + unk4_1.bim + unk4_1.fam ... done.
+
+End time: Fri Jun 14 14:41:25 2019
